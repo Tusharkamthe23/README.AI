@@ -2,3 +2,4 @@ streamlit
 groq
 requests
 pathlib
+python-dotenv
