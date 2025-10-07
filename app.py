@@ -16,7 +16,7 @@ st.set_page_config(
     layout="wide"
 )
 
-DEFAULT_GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+DEFAULT_GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 def fetch_github_repo_structure(github_url, github_token=None):
     """Fetch repository structure from GitHub API"""
